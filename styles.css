@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento");
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('https://media.tenor.com/F-oAqkF5csAAAAAj/panda-confetti.gif') repeat; /* Esta es la línea que agrega el mosaico */
+  background-size: 85px; /* Ajusta el tamaño del gif si es necesario */
+
+.card {
+  width: 90%;
+  max-width: 1200px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.header {
+  position: relative;
+}
+
+.birthday-gif {
+  width: 20%;
+  height: auto;
+}
+
+.birthday-gif2 {
+  width: 40%;
+  height: auto;
+}
+
+.picture {
+  width: 40%;
+  height: auto;
+}
+.content {
+  padding: 20px;
+}
+
+h1 {
+  color: #b1062e;
+  font-family: "Sacramento";
+  font-size: 3.5rem;
+  margin: 0.5rem 0;
+}
+
+h2 {
+  color: #025c5c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+h3 {
+  color: #131212d7;
+  font-family: "Bungee Shade";
+  font-size: 4rem;
+  margin: 0.0rem 0;
+}
+
+h4 {
+  color: #e40000d7;
+  font-family: "Londrina Shadow";
+  font-size: 20rem;
+  margin: 0.0rem 0;
+}
+
+h5 {
+  color: #131212d7;
+  font-family: "Bungee Shade";
+  font-size: 4rem;
+  margin: 0.0rem 0;
+}
+
+h6 {
+  color: #693300d7;
+  font-family: "Shantell Sans";
+  font-size: 4rem;
+  font-style: oblique;
+  margin: 0.0rem 0;
+}
+
+h7 {
+  color: #a55102d7;
+  font-family: "Shantell Sans";
+  font-size: 5rem;
+  font-style: oblique;
+  margin: 0.0rem 0;
+}
+
+p {
+  color: #050505;
+  font-size: 1.5rem;
+  font-family: "Roboto Mono";
+  font-style: Bold;
+  line-height: 1.5;
+  margin: 1rem 0;
+}
+
+
+button {
+  background-color: #ec2626;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-family: "Roboto Mono";
+  font-size: 2.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #660016;
+}
+
+#surprise {
+  margin-top: 1rem;
+  color: #ff6f91;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+}
